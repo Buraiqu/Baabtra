@@ -1,0 +1,492 @@
+body
+{
+    background-image: linear-gradient(
+        to bottom,
+        #263B5E 0%,
+        #263B5E 800px,
+        white 800px,
+        white 100%
+        );
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    min-height: auto;
+    border: 0;
+    margin: 0;
+    width: 100%; 
+    padding-top: 10px; 
+    /* position: fixed; */
+    background-color:#263B5E;
+}
+
+.btn1
+{
+    width: 147.79px;
+    height: 48px;
+    border: none;
+    color: white;
+    background-color:  #ff1949;
+    cursor: pointer;
+    font-size: 16px; 
+    border-radius: 4px;
+    outline: none;
+    font-family: "Quicksand" , sans-serif;
+}
+
+.btn1:hover
+{
+    color: white;
+    cursor: pointer;
+    background-color:  #263B5E;
+
+}
+
+.btn12
+{
+    width: 147.79px;
+    height: 48px;
+    border: none;
+    padding-bottom: 10px;
+    color: white;
+    background-color:  #ff1949;
+    cursor: pointer;
+    font-size: 16px; 
+    border-radius: 4px;
+    outline: none;
+    font-family: "Quicksand" , sans-serif;
+}
+
+.btn12:hover
+{
+    color: white;
+    cursor: pointer;
+    background-color:  #263B5E;
+
+}
+
+
+/* .btn1:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    opacity: 1;
+    content: "";
+    background-color: rgb(72, 29, 131);
+    border-radius: 4px;
+}
+.btn1:hover:before{
+    transition: 00.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+} */
+
+/* hr{
+    height: 2px;
+    background-color: #ff0000;
+    border: none;
+} */
+
+.td1
+{
+    font-family: "Muli", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin:0px 0px 35px;
+    color: #919295;
+}
+
+.icon2
+{
+    vertical-align: bottom;
+    font-size: 25px;
+}
+
+.td2
+{
+    font: 20px Muli, sans-serif;
+    padding:0px 0px 0px 50px;
+    color: #FFFFFF;
+}
+.td3
+{
+    font: 13px Muli, sans-serif;
+    color: #FFFFFF;
+}
+
+.h2-1
+{
+    font: 32px Quicksand, sans-serif;
+    color: #FFFFFF;
+    margin: 24px 0px;
+}
+
+.div2
+{
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    background-color: #ff1949;
+}
+
+.btn2
+{
+    display: block;
+    width: 220px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color:#263B5E ;
+    cursor: pointer;
+    font: 16px Quicksand, sans-serif ;
+    border-radius: 30px;
+    outline: none;
+}
+
+.btn2:hover
+{
+    color: white;
+    cursor: pointer;
+    background-color: #ff1949;
+}
+
+/* .btn2:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    opacity: 1;
+    content: "";
+    background-color: #ff1949 ;
+}
+.btn2:hover:before{
+    transition: 00.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+} */
+
+.pr
+{
+    font: 13px Muli, sans-serif;
+    color: #ff1949;
+}
+
+.h2-2
+{
+    font: 32px Quicksand, sans-serif;
+    color: #07294D;
+}
+
+.div3
+{
+    display: flex;
+    flex-flow: row wrap;
+    width: 1100px;
+}
+
+.card12
+{
+    flex: 1 0 100px;
+    height: 200;
+    margin: 12px;
+    box-shadow: 0px 3px 8px rgb(181, 164, 226);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.card12:hover
+{
+    box-shadow: 0px 8px 30px rgb(181, 164, 226) ;
+    width: 102;
+    height: 204;
+}
+
+
+.p-2
+{
+    font: 18px Quicksand, sans-serif;
+    color: #273B5E;
+}
+
+.h2-3
+{
+    font: 20px Muli, sans-serif;
+    color: #ff1949;
+}
+
+.div4
+{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    margin-left: 100px;
+    align-items: center;
+    /* margin-top: 50px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.p-3
+{
+    font-family: "Quicksand", sans-serif;
+    font-size: 22px;
+    color: #07294D;
+}
+
+.pr2
+{
+    font-family: "Muli", sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    color: #535967;
+}
+
+.figure2
+{
+    padding-top: 10px;
+    width: 320px;
+    height: 360px;
+    display: block;
+    margin-left: 20px;
+    border: none;
+    text-align: left;
+    box-shadow: 0px 3px 8px rgb(181, 164, 226);
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+
+.figure2:hover
+{
+    box-shadow: 0px 8px 30px rgb(181, 164, 226) ;
+    width: 328px;
+    height: 368px;
+    color: white;
+    cursor: pointer;
+    background-color: #ff1949;
+}
+
+
+.figure2:hover .change
+{
+    color: white;
+
+}
+/* .figure2:before
+{
+    transition: 0s all ease;
+    position: absolute;
+    opacity: 1;
+    content: "";
+    background-color:  #ff1949;
+    border-radius: 4px;
+}
+
+.figure2:hover:before
+{
+    transition: 0s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+} */
+
+
+
+.dd1
+{
+    font-size: 14px;
+    font-family: "Muli",sans-serif;
+    color: #385777;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.h3-1
+{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 0px;
+    color: #07294D;
+    padding-left: 50px;
+}
+
+.btn4
+{
+    width: 180.79px;
+    height: 55px;
+    border: none;
+    color: white;
+    background-color:  #ff1949;
+    cursor: pointer;
+    font-size: 16px; 
+    border-radius: 4px;
+    text-align: center;
+    padding-bottom: 5px;
+    outline: none;
+    font-family: "Quicksand" , sans-serif;
+}
+
+.btn4:hover
+{
+    color: white;
+    cursor: pointer;
+    background-color:  #263B5E;
+
+}
+
+.card3
+{
+    box-shadow: none;
+    
+}
+
+.card3:hover
+{
+    box-shadow: none;
+    width: 200px;
+    height: 330px;
+}
+
+.sp3
+{
+    color: white; 
+    font-size: 22px; 
+    font-family: "Muli",sans-serif;
+}
+
+.sp4
+{
+    color: #FFFFFFCC; 
+    font-size: 16px; 
+    font-family: "Muli", sans-serif; 
+    line-height: 28px;
+}
+
+.sp5
+{
+    color: #FFFFFFCC; 
+    font-size: 16px; 
+    font-family: "Muli", sans-serif; 
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.sp5:hover
+{
+    color: #ff1949;
+    cursor: pointer;
+}
+
+.fa {
+    padding: 7px;
+    font-size: 30px;
+    width: 23px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa-facebook
+  {
+    background: white;
+    color: #100F1F;
+  }
+
+  .fa-facebook:hover
+  {
+    background-color: #ff1949;
+    color: white;
+  }
+
+  .fa-twitter
+  {
+    background: white;
+    color: #100F1F;
+  }
+
+  .fa-twitter:hover
+  {
+    background-color: #ff1949;
+    color: white;
+  }
+
+  .fa-linkedin
+  {
+    background: white;
+    color: #100F1F;
+  }
+
+  .fa-linkedin:hover
+  {
+    background-color: #ff1949;
+    color: white;
+  }
+
+  .fa-instagram
+  {
+    background: white;
+    color: #100F1F;
+  }
+
+  .fa-instagram:hover
+  {
+    background-color: #ff1949;
+    color: white;
+  }
+
+  .cont1
+  {
+    color: #ff1949;
+    font-size: 14px;
+    font-family: "Muli",sans-serif;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .cont1:hover
+  {
+    color: #273B5E;
+    cursor: pointer;
+  }
+
+  .foot1
+  {
+    color: #ff1949;
+    cursor: pointer;
+  }
+
+  .foot1:hover
+  {
+    color: #263B5E;
+    cursor: pointer;
+  }
+
+  .material-symbols-outlined
+  {
+    font-size: 50px; 
+    color: #ff1949;
+  }
